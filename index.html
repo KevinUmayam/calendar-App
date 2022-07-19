@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Calendar assets/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+      <h2>
+        <br />
+        <span id="todaysDate">00:00</span>
+      </h2>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+
+      <!-- 9 -->
+      <div class="row time-block">
+        <div class="col-md-2 hour btn-dark">9:00am</div>
+        <textarea id="9" class="colorT col-md-9" rows=""></textarea>
+        <button type="button" class="btn col-md-1 btn-dark">save</button>
+      </div>
+
+      <!-- 10 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">10:00am</div>
+        <textarea id="10" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+      <!-- 11 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">11:00am</div>
+        <textarea id="11" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+      <!-- 12 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">12:00am</div>
+        <textarea id="12" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+      <!-- 1 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">1:00pm</div>
+        <textarea id="13" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+      <!-- 2 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">2:00pm</div>
+        <textarea id="14" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+      <!-- 3 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">3:00pm</div>
+        <textarea id="15" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+      <!-- 4 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">4:00pm</div>
+        <textarea id="16" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+      <!-- 5 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">5:00pm</div>
+        <textarea id="17" id="" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+      <!-- 6 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">6:00pm</div>
+        <textarea id="18" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+      <!-- 7 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">7:00pm</div>
+        <textarea id="19" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+      <!-- 8 -->
+      <div class="row">
+        <div class="col-md-2 hour btn-dark">8:00pm</div>
+        <textarea id="20" class="colorT col-md-9" rows="3"></textarea>
+        <button type="button" class="btn col-sm-1 btn-dark">save</button>
+      </div>
+    </div>
+    <style>
+      .past {
+        background-color: #d3d3d3;
+        color: white;
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Calendar assets/calandar.js"></script>
+  </body>
+</html>
